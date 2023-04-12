@@ -1,0 +1,219 @@
+* {
+	padding:0;
+	margin:0;
+	font-family:'Arial'
+}
+body {
+	background:#E5E5E5;
+}
+
+.Phone {
+	display:flex;
+	justify-content:space-between;
+	width:391px;
+	height:20px;
+	align-items:center;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 16px;
+	color: #FFFFFF;
+}
+
+.Locate {
+	display:flex;
+	width:391px;
+	height:20px;
+	align-items:center;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 16px;
+	color: #FFFFFF;
+}
+
+.Locate img {
+margin-right:8px;
+}
+
+.Instagram {
+	display:flex;
+	justify-content:space-between;
+	width:173px;
+	height:28px;
+	align-items:center;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 16px;
+	color: #FFFFFF;
+}
+
+.Instagram img {
+ margin-right:15px;
+}
+
+body main header {
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	height: 77px;
+	background: linear-gradient(269.91deg, rgba(46, 49, 146, 0.7) 0%, rgba(212, 20, 90, 0.7) 98.16%);
+}
+
+.Logo-and-contacts {
+	margin-top:47px;
+	margin-left:122px;
+	align-items:center;
+	Height:60px;
+	width:82%;
+	display:flex;
+	justify-content:space-between;
+}
+
+.Logo {
+	display:flex;
+	justify-content:space-between;
+	width:268px;
+	height:60px;
+	align-items:center;
+	font-style: italic;
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #000000;
+}
+
+.Logo img {
+	margin-right:12px;
+}
+
+.Contacts a{ 
+	text-decoration:none;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 21px;
+	text-align: center;
+	color: #737373;
+}
+
+.Buy-header-and-icon {
+	display:flex;
+	justify-content:space-between;
+	padding-left:22px;
+	padding-right:78px;
+	background-image: url("img/Buy_header_background.png");
+	background-repeat:no-repeat;
+}
+
+.Buy-header {
+	margin-top:220px;
+}
+
+.Buy-header h1 {
+	font-style: normal;
+	font-weight: 900;
+	font-size: 50px;
+	line-height: 59px;
+	color: #000000;
+	width:786px;
+}
+
+.Buy-header p {
+	height:43px;
+	margin-top:10px;
+	margin-bottom:5px;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 28px;
+	color: #000000;
+}
+
+.Buy-header a {
+	text-decoration:none;
+	text-align:center;
+	display:block;
+	background: linear-gradient(95.2deg, #B90160 2.23%, #2E3192 99.51%);
+	border-radius: 7px;
+	font-style: normal;
+	font-weight: 900;
+	width:179px;
+	padding-top:15px;
+	padding-bottom:15px;
+	font-size: 20px;
+	line-height: 23px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.Buy-header a:hover{
+	color: #DDDDDD;
+	background: linear-gradient(95.2deg, #2E3192 2.23%, #B90160 99.51%);
+}
+
+.What-EVA {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 50px;
+	line-height: 59px;
+	text-align: center;
+	color: #000000;
+	margin-bottom:150px;
+}
+
+.What-EVA span{
+	font-style: normal;
+	font-weight: 400;
+	font-size: 50px;
+	line-height: 59px;
+	text-align: center;
+	background: linear-gradient(180deg, #B90160 0%, #3D5BF5 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+}
+
+.Card img {
+	border-top-left-radius:5%;
+	border-top-right-radius:5%;
+}
+
+.Card div {
+	width:344px;
+	height:172px;
+	background-color:white;
+	border-bottom-left-radius:5%;
+	border-bottom-right-radius:5%;
+}
+
+.Card div h2 {
+	width:289px;
+	height:49px;
+	margin-left:22px;
+	font-family: 'Verdana';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 33px;
+	line-height: 42px;
+	color: #000000;
+}
+
+.Card div p {
+	width: 289px;
+	height: 106px;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 16px;
+	color: #767676;
+	margin-left:22px;
+	margin-top:6px;
+}
+
+.Cards {
+	display:flex;
+	justify-content:space-between;
+	padding:50px;
+}
